@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Ubuntu:wght@300&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1543bdcf7c.js" crossorigin="anonymous"></script>
+    <!-- inhouse styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Some App</title>
+  </head>
+  <body >
+    <section id="title" class="mainColor">
+    <div class="container-fluid">
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" style="color: orange; font-weight: Bolder;" href="">SomeApp</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 title-pad">
+            <h1 class="title-font">I don't know, bro.</h1>
+            <h1 class="title-font">It's just <span class="navbar-brand" style="color: orange; font-weight: Bolder;">SomeApp.</span></h1>
+            <a href="#cta"><button type="button" class="btn btn-dark dl-btn"><i class="fab fa-apple"></i> Download</button></a>
+            <a href="#cta"><button type="button" class="btn btn-outline-light dl-btn"><i class="fab fa-google-play"></i> Download</button></a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img class="title-img"src="img/iphone6.png" alt="iphone-mockup">
+          </div>
+
+        </div>
+    </div>
+
+    </section>
+    <!-- Features -->
+
+    <section id="features" class="padding txt-center">
+      <div class="row">
+
+        <div class="feature-pane col-lg-4 col-md-6">
+          <i class="far fa-check-circle fa-4x icon"></i>
+          <h3 class="feat-title">It's SomeApp</h3>
+          <p>Bruh, it's SomeApp. I don't know what else to tell you.</p>
+        </div>
+
+        <div class="feature-pane col-lg-4 col-md-6">
+          <i class="fas fa-bullseye fa-4x icon"></i>
+          <h3 class="feat-title">It's SomeApp</h3>
+          <p>Bruh, it's SomeApp. I don't know what else to tell you.</p>
+        </div>
+        <div class="feature-pane col-lg-4 col-md-12">
+          <i class="far fa-heart fa-4x icon"></i>
+          <h3 class="feat-title">It's SomeApp</h3>
+          <p>Bruh, it's SomeApp. I don't know what else to tell you.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class="mainColor txt-center">
+      <div id="testi-slide" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <div class="carousel-inner">
+          <div class="carousel-item active padding">
+            <h2 class="testi-txt">Testimonials Slides using Bootstrap 4.0</h2>
+            <img class="testi-img" src="img/dog-img.jpg" alt="dog-profile">
+            <em>a dog, New York</em>
+          </div>
+          <div class="carousel-item padding">
+            <h2 class="testi-txt">Woah Testimonials. What is it about? Nobody knows. I'm just gonna write random words now. Goo goo gaa gaa testi test.</h2>
+            <img class="testi-img" src="img/lady-img.jpg" alt="lady-profile">
+            <em>a woman, Some Where</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testi-slide" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testi-slide" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Press -->
+
+    <section id="press" class="mainColor txt-center">
+        <h2 class="">As seen on somewhere:</h2>
+        <img class="press-logo" src="img/techcrunch.png" alt="tc-logo">
+        <img class="press-logo" src="img/tnw.png" alt="tnw-logo">
+        <img class="press-logo" src="img/bizinsider.png" alt="biz-insider-logo">
+        <img class="press-logo" src="img/mashable.png" alt="mashable-logo">
+    </section>
+
+
+    <!-- Pricing -->
+
+    <section id="pricing" class="txt-center">
+
+      <h2>A Plan Fits for Every User Needs</h2>
+      <p>Simple and affordable price plans for you and your wallet.</p>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Leech</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>Some Limitation pt1</p>
+            <p>Some Limitation pt2</p>
+            <p>Some Limitation pt3</p>
+            <p>No VIP perks</p>
+            <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2>$10 / mo</h2>
+            <p>No Limitation pt1</p>
+            <p>No Limitation pt2</p>
+            <p>No Limitation pt3</p>
+            <p>Some VIP perks</p>
+            <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>ok Donald Trump, calm down.</h3>
+          </div>
+          <div class="card-body">
+            <h2>$100 / mo</h2>
+            <p>No Limitation pt1</p>
+            <p>No Limitation pt2</p>
+            <p>No Limitation pt3</p>
+            <p>All VIP perks</p>
+            <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section id="cta" class="padding mainColor txt-center">
+
+      <h3 class="cta-heading mainColor">I tired of convincing you. Just download the app already.</h3>
+      <a href="#title"><button type="button" class="btn btn-dark dl-btn"><i class="fab fa-apple"></i> Download</button></a>
+      <a href="#title"><button type="button" class="btn btn-outline-light dl-btn"><i class="fab fa-google-play"></i> Download</button></a>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer" class="padding txt-center">
+      <div id="contact">
+      <a href="https://twitter.com/SomeApp"><i class="foot-social fab fa-twitter"></i></a>
+      <a href="https://facebook.com/SomeApp"><i class="foot-social fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/SomeApp"><i class="foot-social fab fa-instagram"></i></a>
+      <a href="mailto:customercare@someapp.com"><i class="foot-social far fa-envelope"></i></a>
+      </div>
+      <p>© Copyright 2020 <span style="color: orange; font-weight: Bolder;">SomeApp</span></p>
+      <a href="#title"><i class=" foot-social fas fa-chevron-up"></i></a>
+
+    </footer>
+
+  </body>
+</html>

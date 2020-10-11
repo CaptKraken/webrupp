@@ -1,0 +1,143 @@
+body{
+  font-family: 'Montserrat-Light', sans-serif;
+  overflow-x: hidden;
+}
+#title{
+  color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+p{
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.txt-center{
+  text-align: center;
+}
+.mainColor{
+    background-color: #ff4c68;
+    color: white;
+}
+.padding{
+  padding: 7% 15%;
+}
+.title-font{
+    font-size: 3rem;
+}
+.title-img{
+  width: 50%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(30deg);
+}
+.title-pad{
+  padding-left: 2rem;
+}
+.container-fluid{
+  padding: 5% 15% 10%;
+}
+.navbar-brand{
+  font-style: normal;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: orange;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.nav-link{
+    font-family: "Oswald";
+    font-size: 1.5rem;
+    font-weight:  bolder;
+}
+.navbar{
+  padding-bottom: 4rem;
+}
+.dl-btn{
+  margin: 5px;
+  padding: 5px 20px;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#features{
+  position: relative;
+  background-color: white;
+}
+.feat-title{
+  color: black;
+  font-size: 1.5rem;
+}
+.feature-pane{
+  margin: 0 auto auto auto;
+  padding: 5%;
+  font-weight: bold;
+}
+/* hover effect disabled
+.feature-pane:hover{
+  background-color: rgba(184, 182, 182, 0.5);
+}*/
+.icon{
+  color: #ff4c68;
+  padding-bottom: 5px;
+}
+.icon:hover{
+  color: #fc5b84;
+}
+.testi-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testi-txt{
+  font-size: 2.5rem;
+}
+#press{
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding:  15px 5%;
+}
+.card{
+  margin: 15px 0;
+}
+.cta-heading{
+  margin: auto;
+  width: 60%;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+}
+.foot-social{
+  color: #ff4c68;
+  margin: 10px;
+  font-size: 2rem;
+}
+.foot-social:hover{
+  color: #fa2547;
+}
+#footer.padding{
+  padding: 2%;
+}
+@media (max-width: 1039px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    margin-top: 15px;
+  }
+  .cta-heading{
+    width: 90%;
+  }
+
+}
